@@ -1,0 +1,10 @@
+img{
+	max-height: 95vh;
+}
+
+.section-title--special{
+    background: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    clip-path: polygon(10% 0, 100%0, 90% 100%, 0 100%);
+}
