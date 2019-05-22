@@ -1,15 +1,13 @@
-$('.dropdown-menu a').click(function(){
-    $('#type').text($(this).text());
-  });
+function GetSearchFilter() {
+  var e = document.getElementByID("type");
+  var type = e.options[e.selectedIndex].value;
 
-$('.dropdown-menu a').click(function(){
-    $('#height').text($(this).text());
-  });
+  var e = document.getElementByID("height");
+  var type = e.options[e.selectedIndex].value;
 
-$('.dropdown-menu a').click(function(){
-    $('#sun').text($(this).text());
-  });
+  var e = document.getElementByID("sunlight");
+  var type = e.options[e.selectedIndex].value;
 
-$('.dropdown-menu a').click(function(){
-      $('#soil').text($(this).text());
-  });
+  var e = document.getElementByID("drainage");
+  var type = e.options[e.selectedIndex].value;
+}
